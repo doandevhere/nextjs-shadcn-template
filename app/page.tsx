@@ -1,3 +1,4 @@
+import { ThemeSwitcherBtn } from "@/components/theme/theme-switcher-btn";
 import { Button } from "@/components/ui/button";
 
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
     <div>
       <h1>Hello World from Next.js</h1>
       <Button>Click me</Button>
+      <ThemeSwitcherBtn />
     </div>
   );
 }
